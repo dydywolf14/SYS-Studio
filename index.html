@@ -6,9 +6,7 @@
 <title>SYS STUDIO</title>
 
 <style>
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
     margin: 0;
@@ -40,9 +38,7 @@ nav a {
     letter-spacing: 3px;
 }
 
-nav a.active {
-    color: #00ffb3;
-}
+nav a.active { color: #00ffb3; }
 
 .discord {
     border: 1px solid #333;
@@ -136,15 +132,14 @@ footer {
 </style>
 </head>
 
-<body>
+<body id="accueil">
 
 <header>
     <div class="logo">SYS STUDIO</div>
 
     <nav>
-        <a href="#">ACCUEIL</a>
-        <a href="#" class="active">NOS SCRIPTS</a>
-        <a href="#">NOS MAPPINGS</a>
+        <a href="#accueil">ACCUEIL</a>
+        <a href="#scripts" class="active">NOS SCRIPTS</a>
     </nav>
 
     <a href="#" class="discord">Discord</a>
@@ -154,7 +149,7 @@ footer {
 
     <input class="search" type="text" placeholder="🔍 Rechercher un script...">
 
-    <div class="grid">
+    <div class="grid" id="scripts">
 
         <div class="card">
             <div class="image">
